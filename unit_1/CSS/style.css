@@ -4,3 +4,13 @@ body {
 h1, p {
 	color: #FE2712;
 }
+h1, h3 {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+}
+h3 {
+	font-size: 24px;
+}
+p {
+	font-family:"Courier New", monospace;
+}
