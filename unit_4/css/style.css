@@ -12,6 +12,11 @@ body {
 	height: 100%;
 }
 
+.two-columns .column {
+	width: 50%;
+	float: left;
+}
+
 h1 {
 	color: yellow;
 	/*font-family: "Futura PT", sans-serif;*/
