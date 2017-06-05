@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Kanit:700|Kreon:300);
 
+/*CSS Simple Reset*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
 body {
 	background-color: black;
 }
@@ -18,26 +25,29 @@ header {
     padding: 20px;
 }
 
-#two-columns {
+.two-columns .column{
+	padding: 20px;
+	width: 50%;
+	float: left;
+}
+
+.two-columns.right .column{
+	border: 1px black solid;
+	padding: 20px;
+	width: 50%;
+	float: right;
+}
+
+.two-columns{
 	background-color: #ffb7cf; !important
 	border: 1px black solid;
-	padding: 20px;
 }
-
-#left {
+.column.left {
 	background-color: #e582a2;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 45%;
 }
 
-#right {
+.column.right {
 	background-color: #e55b88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 45%;
 }
 
 h1 {
@@ -108,7 +118,10 @@ footer {
 }
 
 img {
-	height: 300px;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	display: block;
 }
 
 h3 {
