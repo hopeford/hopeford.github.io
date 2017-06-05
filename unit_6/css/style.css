@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:700|Kreon:300);
+
+body {
+	background-color: black;
+}
+
+#cover {
+	background: url(../images/dark_letspretend.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#two-columns {
+	background-color: #ffb7cf; !important
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: #e582a2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 45%;
+}
+
+#right {
+	background-color: #e55b88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 45%;
+}
+
+h1 {
+	color: yellow;
+	/*font-family: "Futura PT", sans-serif;*/
+	font-family: Kanit, sans-serif;
+	font-size: 100px;
+	font-weight: 900;
+	line-height: 1.5em;
+	padding-top: 300px;
+	text-align: center;
+	
+}
+
+#slogan {
+	/*font-family: "Courier New";*/
+	font-family: Kreon, serif;
+	font-size: 30px;
+	/*font-style: italic; */
+	font-weight: 600;
+	line-height: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: yellow;
+	font-family: "Futura PT", sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+	text-anchor: right
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+	color: yellow;
+	font-family: "Futura PT", sans-serif;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+img {
+	height: 300px;
+}
+
+h3 {
+	color: white;
+	font-family: "Courier New";
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+	text-anchor: right
+}
+
+p {
+	color: white;
+	font-family: "Futura PT", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5em;
+	margin: 2em;
+	text-align: center;
+	text-anchor: right
+}
+
+ul {
+	color: white;
+	font-family: "Courier New";
+	font-size: 20px;
+	font-weight: 300
+	list-style: none;
+	text-align: center;
+	list-style: none;
+}
+
+a {
+	background-color: yellow;
+	color: black;
+	text-decoration: none;
+}
+
+#contact {
+	font-size: 12px; !important;
+}
+
+hr {
+	width: 600px;
+	height: 4px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
