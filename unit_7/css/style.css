@@ -50,6 +50,12 @@ header {
 	background-color:;
 }
 
+@media screen and (max-width: 500px)	{
+	.two-columns .column {
+		width: 100%;
+	}
+}
+
 h1 {
 	color: yellow;
 	/*font-family: "Futura PT", sans-serif;*/
@@ -61,6 +67,19 @@ h1 {
 	text-align: center;
 	
 }
+
+@media screen and (max-width: 500px)	{
+		h1	{	
+		color: yellow;
+		/*font-family: "Futura PT", sans-serif;*/
+		font-family: Kanit, sans-serif;
+		font-size: 80px;
+		font-weight: 900;
+		line-height: 1.5em;
+		padding-top: 300px;
+		text-align: center;
+		}
+	}
 
 #slogan {
 	/*font-family: "Courier New";*/
@@ -82,15 +101,24 @@ h2 {
 	text-anchor: right
 }
 
-nav {
-	background-color:;
-	border: 1px black solid;
-    padding: 20px;
-	color: yellow;
+nav a {
+	display: inline-block;
+	background-color:yellow;
+    padding-left: 10px;
+    padding-right: 10px;
 	font-family: "Futura PT", sans-serif;
 	font-size: 50px;
 	font-weight: 800;
-	text-align: center;
+	margin-bottom: 3px;
+	-webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+nav a:hover	{
+	background-color: black;
+	color: yellow;
 }
 
 article {
@@ -172,8 +200,10 @@ a {
 }
 
 hr {
-	width: 600px;
+	width: 80%;
+	max-width: 600px;
 	height: 4px;
+	margin: 0 auto;
 }
 
 .clearfix:after {

@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit:700|Kreon:300);
+
+/*CSS Simple Reset*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	font-size: 18px;
+}
+
+#cover {
+	background: url(../images/dark_letspretend.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+header {
+    padding: 20px;
+}
+
+.two-columns .column{
+	padding: 20px;
+	width: 50%;
+	float: left;
+}
+
+.two-columns.right .column{
+	padding: 20px;
+	width: 50%;
+	float: right;
+}
+
+h1 {
+	color: yellow;
+	/*font-family: "Futura PT", sans-serif;*/
+	font-family: Kanit, sans-serif;
+	font-size: 100px;
+	font-weight: 900;
+	line-height: 1.5em;
+	padding-top: 300px;
+	text-align: center;
+	
+}
+
+#slogan {
+	/*font-family: "Courier New";*/
+	font-family: Kreon, serif;
+	font-size: 30px;
+	/*font-style: italic; */
+	font-weight: 600;
+	line-height: 1.5em;
+	text-align: center; !important;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: yellow;
+	font-family: "Futura PT", sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	text-align: center;
+	text-anchor: right
+}
+
+nav a {
+	display: inline-block;
+	background-color:yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+	font-family: "Futura PT", sans-serif;
+	font-size: 50px;
+	font-weight: 800;
+	margin-bottom: 3px;
+	-webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+nav a:hover	{
+	background-color: black;
+	color: yellow;
+}
+
+article {
+    padding: 20px;
+}
+
+div {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+	background-color:;
+    padding: 20px;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+h3 {
+	color: white;
+	font-family: "Courier New";
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	text-anchor: right
+}
+
+h4 {
+	color: white;
+	font-family: "Courier New";
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	text-anchor: right
+}
+
+p {
+	color: white;
+	font-family: "Futura PT", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5em;
+	margin: 2em;
+	text-align: left;
+	text-anchor: right
+}
+
+ul {
+	color: white;
+	font-family: "Courier New";
+	font-size: 20px;
+	font-weight: 300
+	list-style: none;
+	text-align: center;
+	list-style: none;
+}
+
+a {
+	background-color: yellow;
+	color: black;
+	text-decoration: none;
+}
+
+#contact {
+	font-size: 12px; !important;
+	text-align: center;
+}
+
+hr {
+	width: 80%;
+	max-width: 600px;
+	height: 4px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@media screen and (max-width: 768px)	{
+	.two-columns .column {
+		width: 100%;
+		float: none;
+	}
+
+	img 	{
+		margin-left: auto;
+    	margin-right: auto
+	}
+
+	nav a {
+		text-align: left;
+		margin: 0.1em;
+	}
+}
+
+@media screen and (max-width: 500px)	{
+		h1	{	
+		color: yellow;
+		/*font-family: "Futura PT", sans-serif;*/
+		font-family: Kanit, sans-serif;
+		font-size: 80px;
+		font-weight: 900;
+		line-height: 1.5em;
+		padding-top: 300px;
+		text-align: center;
+		}
+	}
