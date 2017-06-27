@@ -9,7 +9,7 @@ box-sizing: border-box;
 
 body {
 	background-color: black;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .two-columns .column{
@@ -30,17 +30,15 @@ h1 {
 	font-size: 5em;
 	font-weight: 900;
 	text-align: center;
-	background-color: yellow;
-	
+	background-color: yellow;	
 }
 
-#background street pic	{
+#background_street_pic	{
 	background: url(../images/dark_letspretend.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
-	z-index: 900;
 }
 
 #slogan {
@@ -49,21 +47,31 @@ h1 {
 	font-size: 1.6em;
 	font-weight: 300;
 	line-height: 1.5em;
-	text-align: center; !important;
+	text-align: center;
 	text-transform: uppercase;
-}
-
-#slogan p 	{
-	color: white;
+	text-shadow: 2px 2px #ff0000;
 }
 
 #intro {
-	text-align: center; !important;
-	z-index: 999;
+	text-align: center;
 }
 
 #intro p 	{
 	color: white;
+	text-shadow: 1px 1px #ff0000;
+	text-align: center;
+}
+
+#intro ul{
+	color: white;
+	text-shadow: 1px 1px #ff0000;
+	text-align: center;
+}
+
+.wrapper	{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 h2 {
@@ -127,26 +135,23 @@ h3 {
 	font-size: 40px;
 	font-weight: 300;
 	text-align: center;
-	text-anchor: right
 }
 
 h4 {
-	color: white;
+	color: black;
 	font-family: "Courier New";
 	font-size: 30px;
 	font-weight: 300;
 	text-align: center;
-	text-anchor: right
 }
 
 p {
 	color: black;
 	font-family: "Futura PT", sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 400;
 	line-height: 1.5em;
 	margin: 2em;
-	text-anchor: right
 }
 
 footer p 	{
@@ -155,7 +160,7 @@ footer p 	{
 }
 
 ul {
-	color: white;
+	color: black;
 	font-family: "Courier New";
 	font-size: 1.1em;
 	font-weight: 300;
@@ -171,7 +176,7 @@ a {
 }
 
 #contact {
-	font-size: 12px; !important;
+	font-size: 12px;
 	text-align: center;
 }
 
@@ -197,6 +202,10 @@ hr {
 		float: none;
 	}
 
+	#slogan {
+		font-size: 2em;
+	}
+
 	img 	{
 		margin-left: auto;
     	margin-right: auto;
@@ -205,21 +214,21 @@ hr {
 }
 
 @media screen and (max-width: 500px)	{
-		body 	{
-			font-size: 14px;
-		}
 
 		h1	{	
 		font-size: 4em;
 		}
 
-		.article	{
-			padding: 0 0;
-			margin: 0 0;
+		.column	p{
+			margin: 1em 0 0 0;
 		}
-
-		.column	{
-			margin: 0 0;
-			padding: 0 0;
+		.two-columns .column 	{
+			padding: 0;
+		}
+		div	{
+			padding: 0;
+		}
+		p 	{
+			margin: 1em 0 0 0;
 		}
 	}
